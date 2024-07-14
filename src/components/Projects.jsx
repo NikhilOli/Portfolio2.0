@@ -1,9 +1,8 @@
 import React from 'react';
 import { projects } from '../constants/constants';
-import GradientLine from './GradientLine';
 
 const Projects = () => (
-    <section className="pb-10" id="projects">\
+    <section className="pb-10" id="projects">
         <div className="w-full md:w-4/5 mx-auto text-center md:text-left">
             <div className="w-16 h-1 bg-gradient-to-r from-orange-500 to-purple-600 my-4 rounded" />
             <h2 className="text-3xl md:text-5xl mt-8 font-bold mb-12 text-gray-100">Projects</h2>
