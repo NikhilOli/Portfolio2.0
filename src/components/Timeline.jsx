@@ -51,14 +51,14 @@ const Timeline = () => {
                     The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
                 </p>
                 <div 
-                    className="flex overflow-x-scroll scrollbar-hide snap-x snap-mandatory touch-pan-x"
+                    className="flex overflow-x-scroll scrollbar-hide snap-x -mx-4 pr-4 snap-mandatory touch-pan-x"
                     ref={carouselRef}
                     onScroll={handleScroll}
                 >
                     {TimeLineData.map((item, index) => (
                         <div
                             key={index}
-                            className="min-w-[120px] md:min-w-[196px] px-4 snap-start"
+                            className="min-w-[120px] md:min-w-[196px] snap-start"
                         >
                             <div
                                 className={`p-4 rounded-md cursor-pointer transition-opacity duration-300 ${activeItem === index ? 'opacity-100' : 'opacity-50'}`}
