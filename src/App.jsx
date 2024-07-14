@@ -7,7 +7,7 @@ import GradientLine from './components/GradientLine'
 const App = () => {
   return (
     <>
-    <div className='ml-[10rem]'>
+    <div className='ml-[9rem]'>
 
       <Header />
       {/* <Section grid> */}

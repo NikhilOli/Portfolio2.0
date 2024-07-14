@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 const Header = () => (
-    <div className="flex flex-col md:flex-row justify-between items-center p-4 space-y-4 mx-48 md:space-y-0">
+    <div className="flex flex-col md:flex-row justify-between items-center p-4 space-y-4 mx-4 mr-28 md:space-y-0">
         <div className="flex items-center">
             <a href="/" className="flex items-center text-white">
                 <DiCssdeck size="26px" />
