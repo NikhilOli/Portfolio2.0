@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import GradientLine from './components/GradientLine'
+import Technologies from './components/Technologies'
 
 const App = () => {
   return (
@@ -14,8 +15,8 @@ const App = () => {
       <Hero />
       {/* <BgAnimation /> */}
       {/* </Section> */}
-      <GradientLine />
       <Projects />
+      <Technologies />
     </div>
     </>
   )

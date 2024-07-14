@@ -11,9 +11,6 @@ const Hero = (props) => (
             <p className="text-sm md:text-[18px] mb-8 text-[#ffffff80] my-1 w-[55%] leading-normal font font-light">
                 The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
             </p>
-            {/* <button className="bg-gradient-to-r from-purple-500 to-sky-500 text-white py-2 px-4 rounded-full w-[20%] hover:bg-gradient-to-r from-purple-600 to-sky-600 transition duration-300">
-                Learn More
-            </button>    */}
             <Button onClick={props.handleClick}>
                 Learn More
             </Button>
