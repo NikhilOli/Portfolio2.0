@@ -43,11 +43,11 @@ const Timeline = () => {
     }, []);
 
     return (
-        <section id="about" className="py-10 flex flex-col items-center">
+        <section id="about" className="py-8 md:py-10 flex flex-col items-center px-4 md:px-0">
             <div className="w-full md:w-4/5 mx-auto">
-                <div className="w-16 h-1 bg-gradient-to-r from-orange-500 to-purple-600 my-4 rounded" />
-                <h2 className="text-3xl md:text-5xl font-bold mb-4 text-gray-100">About Me</h2>
-                <p className="text-sm md:text-[18px] text-[#ffffff80] mb-8 w-[55%] leading-normal">
+                <GradientLine />
+                <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 text-gray-100 text-center md:text-left">About Me</h2>
+                <p className="text-sm md:text-[18px] text-[#ffffff80] mb-8 w-full md:w-[55%] leading-normal text-center md:text-left">
                     The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
                 </p>
                 <div 
@@ -58,15 +58,15 @@ const Timeline = () => {
                     {TimeLineData.map((item, index) => (
                         <div
                             key={index}
-                            className="min-w-[120px] md:min-w-[50px] w-[210px] snap-start"
+                            className="min-w-[120px] md:min-w-[50px] w-[170px] sm:w-[210px] snap-start"
                         >
                             <div
-                                className={`p-4 rounded-md cursor-pointer transition-opacity duration-300 ${activeItem === index ? 'opacity-100' : 'opacity-50'}`}
+                                className={`p-3 md:p-4 rounded-md cursor-pointer transition-opacity duration-300 ${activeItem === index ? 'opacity-100' : 'opacity-50'}`}
                                 onClick={(e) => handleClick(e, index)}
                             >
-                                <h4 className="text-xl md:text-2xl font-bold mb-2 bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent flex items-center">
+                                <h4 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent flex items-center">
                                     {item.year}
-                                    <svg className="w-52 h-1.5 ml-4 hidden md:block" viewBox="0 0 208 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="w-32 sm:w-52 h-1.5 ml-2 sm:ml-4 hidden md:block" viewBox="0 0 208 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             fillRule="evenodd"
                                             clipRule="evenodd"
@@ -82,16 +82,16 @@ const Timeline = () => {
                                         </defs>
                                     </svg>
                                 </h4>
-                                <p className="text-sm md:text-[15px] text-white/75">{item.text}</p>
+                                <p className="text-xs sm:text-sm md:text-[15px] text-white/75">{item.text}</p>
                             </div>
                         </div>
                     ))}
                 </div>
-                <div className="flex justify-center mt-8 md:hidden">
+                <div className="flex justify-center mt-6 md:hidden">
                     {TimeLineData.map((item, index) => (
                         <button
                             key={index}
-                            className={`w-1 h-1 rounded-full mx-1 transition-all duration-300 ${activeItem === index ? 'bg-white scale-125' : 'bg-white/30'}`}
+                            className={`w-2 h-2 rounded-full mx-1 transition-all duration-300 ${activeItem === index ? 'bg-white scale-125' : 'bg-white/30'}`}
                             onClick={(e) => handleClick(e, index)}
                         />
                     ))}

@@ -9,21 +9,15 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <>
-    <div className='ml-[8rem]'>
-
+    <div className='md:ml-[4rem] mx-4 md:mx-0'>
       <Header />
-      {/* <Section grid> */}
       <Hero />
-      {/* <BgAnimation /> */}
-      {/* </Section> */}
       <Projects />
       <Technologies />
       <Timeline />
       <Accomplishments />
       <Footer />
     </div>
-    </>
   )
 }
 
