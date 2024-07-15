@@ -6,7 +6,7 @@ const Projects = () => (
         <div className="w-full md:w-4/5 mx-auto text-center md:text-left">
             <div className="w-16 h-1 bg-gradient-to-r from-orange-500 to-purple-600 my-4 rounded" />
             <h2 className="text-3xl md:text-5xl mt-8 font-bold mb-12 text-gray-100">Projects</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mr-32 ml-14">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mr-32 ml-10">
                 {projects.map((p) => (
                     <div key={p.id} className="overflow-hidden text-center shadow-project hover:shadow-project-hover transition duration-50 w-[380px] flex flex-col justify-between">
                         <img src={p.image} alt={p.title} className="w-full h-fit object-cover object-center" />

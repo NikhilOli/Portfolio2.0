@@ -11,7 +11,7 @@ const Technologies = () => (
                 I've worked with a range of technologies in the web development world.
                 From Back-end To Design
             </p>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-[90%]">
                 <li className="flex flex-col items-start">
                     <DiReact size="1.5rem" className=" text-gray-100" />
                     <h4 className="text-xl font-semibold text-white">Front-End</h4>
@@ -37,7 +37,6 @@ const Technologies = () => (
                     </p>
                 </li>
             </ul>
-            <div className="w-16 h-1 bg-gradient-to-r from-orange-500 to-purple-600 my-4 rounded" />
         </div>
     </section>
 );

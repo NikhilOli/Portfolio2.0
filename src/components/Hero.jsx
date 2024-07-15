@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Button';
 
 const Hero = (props) => (
-    <section className="flex flex-col items-center md:flex-row md:items-start md:space-x-8 p-0 mt-12">
+    <section className="flex flex-col items-center md:flex-row md:items-start md:space-x-8 p-0 my-12">
         <div className="w-full md:w-4/5 flex flex-col mx-auto text-center md:text-left">
             <h1 className="text-3xl md:text-5xl font-bold mb-4">
                 Welcome To <br />
