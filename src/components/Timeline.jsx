@@ -45,7 +45,7 @@ const Timeline = () => {
     return (
         <section id="about" className="py-8 md:py-10 flex flex-col items-center px-4 md:px-0">
             <div className="w-full md:w-4/5 mx-auto">
-                <GradientLine />
+                <div className="w-12 h-1 bg-gradient-to-r from-orange-500 to-purple-600 my-4 rounded" />
                 <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 text-gray-100 text-center md:text-left">About Me</h2>
                 <p className="text-sm md:text-[18px] text-[#ffffff80] mb-8 w-full md:w-[55%] leading-normal text-center md:text-left">
                     I'm a passionate ReactJS developer with expertise in building responsive web applications. My journey in software engineering has just begun, and I'm excited to create innovative solutions and contribute to impactful projects.

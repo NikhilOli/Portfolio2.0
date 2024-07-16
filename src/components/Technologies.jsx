@@ -8,8 +8,7 @@ const Technologies = () => (
             <GradientLine />
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 text-gray-100 text-center md:text-left">Technologies</h2>
             <p className="text-sm md:text-[18px] text-[#ffffff80] mb-8 w-full md:w-[55%] leading-normal text-center md:text-left">
-                I've worked with a range of technologies in the web development world.
-                From Back-end To Design
+                These are the technologies I'm familiar with. From Front-end to Back-end and Design.
             </p>
             <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full">
                 <li className="flex flex-col items-center md:items-start">
@@ -17,7 +16,7 @@ const Technologies = () => (
                     <h4 className="text-lg md:text-xl font-semibold text-white mb-2">Front-End</h4>
                     <p className="text-[#ffffff80] text-center md:text-left">
                         Experience with <br />
-                        React.js
+                        HTML, CSS, JavaScript, React, Tailwind CSS, Framer-Motion
                     </p>
                 </li>
                 <li className="flex flex-col items-center md:items-start">
@@ -25,7 +24,7 @@ const Technologies = () => (
                     <h4 className="text-lg md:text-xl font-semibold text-white mb-2">Back-End</h4>
                     <p className="text-[#ffffff80] text-center md:text-left">
                         Experience with <br />
-                        Node and Databases
+                        Node.js, Express.js, MongoDB
                     </p>
                 </li>
                 <li className="flex flex-col items-center md:items-start">
@@ -33,7 +32,7 @@ const Technologies = () => (
                     <h4 className="text-lg md:text-xl font-semibold text-white mb-2">UI/UX</h4>
                     <p className="text-[#ffffff80] text-center md:text-left">
                         Experience with <br />
-                        tools like Figma
+                        Tailwind CSS, Framer-Motion
                     </p>
                 </li>
             </ul>
