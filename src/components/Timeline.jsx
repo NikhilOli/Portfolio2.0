@@ -91,7 +91,7 @@ const Timeline = () => {
                     {TimeLineData.map((item, index) => (
                         <button
                             key={index}
-                            className={`w-2 h-2 rounded-full mx-1 transition-all duration-300 ${activeItem === index ? 'bg-white scale-125' : 'bg-white/30'}`}
+                            className={`w-1 h-1 rounded-full mx-1 transition-all duration-300 ${activeItem === index ? 'bg-white scale-125' : 'bg-white/30'}`}
                             onClick={(e) => handleClick(e, index)}
                         />
                     ))}

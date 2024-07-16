@@ -23,8 +23,8 @@ const Projects = () => (
                                 </ul>
                             </div>
                             <div className="flex justify-center gap-8 md:gap-20 mt-auto py-4">
-                                <a href={p.visit} className="text-gray-400 bg-red-600 px-3 py-1 rounded-xl transition duration-500 ease-in-out hover:bg-red-700 text-sm md:text-base">Code</a>
-                                <a href={p.source} className="text-gray-400 bg-red-600 px-3 py-1 rounded-xl transition duration-500 ease-in-out hover:bg-red-700 text-sm md:text-base">Source</a>
+                                <a href={p.visit} target="_blank" rel="noopener noreferrer" className="text-gray-400 bg-red-600 px-3 py-1 rounded-xl transition duration-500 ease-in-out hover:bg-red-700 text-sm md:text-base">Demo</a>
+                                <a href={p.source} target="_blank" rel="noopener noreferrer" className="text-gray-400 bg-red-600 px-3 py-1 rounded-xl transition duration-500 ease-in-out hover:bg-red-700 text-sm md:text-base">Code</a>
                             </div>
                         </div>
                     </div>

@@ -1,46 +1,73 @@
+import imageSnap from "../assets/portfolio/imageSnap.png";
+import blogweave from "../assets/portfolio/blogWeave.png";
+import contactms from "../assets/portfolio/contactms.png";
+import reduxEcommerce from "../assets/portfolio/reduxEcommerce.png";
+import weatherApp from "../assets/portfolio/weatherApp.png";
+import onn from "../assets/portfolio/onn.png";
+import eCommerce from "../assets/portfolio/eCommerce.png";
+
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
     id: 1,
+    title: "Image Snap",
+    description: "Image Snap is a web application for image manipulation and sharing.",
+    image: imageSnap,
+    tags: ['React', 'JavaScript', 'CSS'],
+    source: 'https://github.com/yourusername/image-snap',
+    visit: "https://image-snap.vercel.app/",
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
     id: 2,
+    title: "Blog Weave",
+    description: "Blog Weave is a platform for creating and sharing blog posts.",
+    image: blogweave,
+    tags: ['React', 'Node.js', 'MongoDB'],
+    source: 'https://github.com/yourusername/blog-weave',
+    visit: "https://blogweave.vercel.app/",
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
     id: 3,
+    title: "Contact Management System",
+    description: "A system for efficiently managing and organizing contacts.",
+    image: contactms,
+    tags: ['React', 'Redux', 'Node.js'],
+    source: 'https://github.com/yourusername/contact-management-system',
+    visit: "https://contactms.vercel.app/",
   },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  {
+    id: 4,
+    title: "Redux E-commerce",
+    description: "An e-commerce platform built with Redux for state management.",
+    image: reduxEcommerce,
+    tags: ['React', 'Redux', 'Node.js'],
+    source: 'https://github.com/yourusername/redux-ecommerce',
+    visit: "https://redux-ecommerce-ten.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Weather App",
+    description: "A weather application providing real-time weather information.",
+    image: weatherApp,
+    tags: ['React', 'API Integration', 'CSS'],
+    source: 'https://github.com/yourusername/weather-app',
+    visit: "https://weatheringai.netlify.app/",
+  },
+  {
+    id: 6,
+    title: "Project ONN",
+    description: "Project ONN is a web application for [brief description].",
+    image: onn,
+    tags: ['React', 'JavaScript', 'CSS'],
+    source: 'https://github.com/yourusername/project-onn',
+    visit: "https://react-projects-coral.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "E-commerce",
+    description: "A full-featured e-commerce platform for online shopping.",
+    image: eCommerce,
+    tags: ['React', 'Node.js', 'MongoDB'],
+    source: 'https://github.com/yourusername/e-commerce',
+    visit: "https://e-commerce-five-plum.vercel.app/",
+  },
 ];
