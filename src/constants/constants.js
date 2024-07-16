@@ -71,3 +71,11 @@ export const projects = [
     visit: "https://e-commerce-five-plum.vercel.app/",
   },
 ];
+
+export const TimeLineData = [
+    { year: 2023, text: 'Started my journey in Software Engineering', },
+    { year: 2023, text: 'Developed my first React project: Weather App', },
+    { year: 2024, text: 'Created Image Snap for image manipulation', },
+    { year: 2024, text: 'Built Blog Weave platform', },
+    { year: 2024, text: 'Developed Redux E-commerce project', },
+  ];

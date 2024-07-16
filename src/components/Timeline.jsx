@@ -48,7 +48,7 @@ const Timeline = () => {
                 <GradientLine />
                 <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 text-gray-100 text-center md:text-left">About Me</h2>
                 <p className="text-sm md:text-[18px] text-[#ffffff80] mb-8 w-full md:w-[55%] leading-normal text-center md:text-left">
-                    The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+                    I'm a passionate ReactJS developer with expertise in building responsive web applications. My journey in software engineering has just begun, and I'm excited to create innovative solutions and contribute to impactful projects.
                 </p>
                 <div 
                     className="flex overflow-x-scroll scrollbar-hide snap-x -mx-4 pr-4 snap-mandatory touch-pan-x"
