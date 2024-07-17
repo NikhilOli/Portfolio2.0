@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className='md:ml-[4rem] mx-4 md:mx-0'>
+    <div className='md:ml-[4rem] mx-8 md:mx-0'>
       <Header />
       <Hero />
       <Projects />

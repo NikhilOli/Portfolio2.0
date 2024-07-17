@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { TimeLineData } from '../constants/constants';
-import GradientLine from './GradientLine';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -17,7 +16,6 @@ const Timeline = () => {
 
         if (carouselRef.current) {
             const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-            
             scroll(carouselRef.current, scrollLeft);
         }
     }
@@ -25,7 +23,6 @@ const Timeline = () => {
     const handleScroll = () => {
         if (carouselRef.current) {
             const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
-
             setActiveItem(index);
         }
     }
@@ -43,15 +40,15 @@ const Timeline = () => {
     }, []);
 
     return (
-        <section id="about" className="py-8 md:py-10 flex flex-col items-center px-4 md:px-0">
-            <div className="w-full md:w-4/5 mx-auto">
-                <div className="w-12 h-1 bg-gradient-to-r from-orange-500 to-purple-600 my-4 rounded" />
+        <section id="about" className="py-8 md:py-10 flex flex-col items-center">
+            <div className="w-full md:w-4/5 mx-auto overflow-hidden">
+                <div className="w-12 sm:w-16 h-1 bg-gradient-to-r from-orange-500 to-purple-600 my-4 rounded" />
                 <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 text-gray-100 text-center md:text-left">About Me</h2>
                 <p className="text-sm md:text-[18px] text-[#ffffff80] mb-8 w-full md:w-[55%] leading-normal text-center md:text-left">
                     I'm a passionate ReactJS developer with expertise in building responsive web applications. My journey in software engineering has just begun, and I'm excited to create innovative solutions and contribute to impactful projects.
                 </p>
                 <div 
-                    className="flex overflow-x-scroll scrollbar-hide snap-x -mx-4 pr-4 snap-mandatory touch-pan-x"
+                    className="flex overflow-x-auto scrollbar-hide snap-x -mx-4 pr-4 snap-mandatory touch-pan-x"
                     ref={carouselRef}
                     onScroll={handleScroll}
                 >
@@ -61,7 +58,7 @@ const Timeline = () => {
                             className="min-w-[120px] md:min-w-[50px] w-[170px] sm:w-[210px] snap-start"
                         >
                             <div
-                                className={`p-3 md:p-4 rounded-md cursor-pointer transition-opacity duration-300 ${activeItem === index ? 'opacity-100' : 'opacity-50'}`}
+                                className={`p-3 pl-5 md:p-4 rounded-md cursor-pointer transition-opacity duration-300 ${activeItem === index ? 'opacity-100' : 'opacity-50'}`}
                                 onClick={(e) => handleClick(e, index)}
                             >
                                 <h4 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent flex items-center">

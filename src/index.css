@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Space Grotesk';
     color: hsl(204,23.8%,95.9%);
