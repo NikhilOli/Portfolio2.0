@@ -18,7 +18,7 @@ const Projects = () => (
                                 <h4 className="text-sm md:text-base font-semibold mb-1 text-gray-300">Stack</h4>
                                 <ul className="flex flex-wrap justify-center gap-2">
                                     {p.tags.map((tag, index) => (
-                                        <li key={index} className="text-gray-400 text-xs md:text-sm px-2">{tag}</li>
+                                        <li key={index} className="text-gray-400 text-xs my-2 md:text-sm px-2">{tag}</li>
                                     ))}
                                 </ul>
                             </div>
