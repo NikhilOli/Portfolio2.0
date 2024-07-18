@@ -24,7 +24,7 @@ const Technologies = () => (
                     <h4 className="text-lg md:text-xl font-semibold text-white mb-2">Back-End</h4>
                     <p className="text-[#ffffff80] text-center md:text-left">
                         Experience with <br />
-                        Node.js, Express.js, MongoDB
+                        Node.js, Express.js, MongoDB and MySQL
                     </p>
                 </li>
                 <li className="flex flex-col items-center md:items-start">
