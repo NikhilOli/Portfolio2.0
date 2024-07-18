@@ -73,12 +73,13 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-    { year: 2022, text: 'Started learning Web Development', },
-    { year: 2023, text: 'Started my journey in Software Development', },
-    { year: 2023, text: 'Learnt Frontend development', },
-    { year: 2023, text: 'Built many Frontend projects', },
-    { year: 2024, text: 'Learnt Backend development', },
-  ];
+  { year: 2022, text: 'Started learning Web Development' },
+  { year: 2023, text: 'Dived into Software Development and started building foundational skills' },
+  { year: 2023, text: 'Mastered Frontend development with React and other modern technologies' },
+  { year: 2023, text: 'Built and deployed multiple frontend projects, showcasing my skills' },
+  { year: 2024, text: 'Expanded my knowledge to Backend development, completing several full-stack projects' },
+];
+
 
 export const data = [
   { number: 7, text: 'Web Projects Completed' },
