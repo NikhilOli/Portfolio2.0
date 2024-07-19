@@ -4,7 +4,7 @@ import { data } from '../constants/constants';
 
 
 const Accomplishments = () => (
-    <section className="flex flex-col items-start px-4 sm:px-8 md:px-10 lg:px-14 py-8 max-w-7xl mx-auto sm:mx-20">
+    <section className="flex flex-col items-start px-4 sm:px-8 md:px-10 lg:px-14 py-8 max-w-7xl mx-auto sm:mx-20 md:mx-[90px]">
         <GradientLine />
         <h2 className="text-[27px] sm:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300 mb-4 text-center md:text-left">
             Personal Achievements

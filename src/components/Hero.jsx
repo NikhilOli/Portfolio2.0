@@ -3,8 +3,8 @@ import { Link } from "react-scroll";
 import Button from './Button';
 
 const Hero = () => (
-    <section name="hero" className="flex flex-col items-center md:items-start p-4 md:p-0 my-8 md:my-12 max-w-7xl sm:mx-auto md:ml-[139px]">
-        <div className="w-full flex flex-col text-center md:text-left">
+<section name="hero" className="flex flex-col items-center md:items-start p-4 md:p-0 my-8 md:my-12 max-w-7xl mx-auto md:ml-[140px]">
+<div className="w-full flex flex-col text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
                 I'm <span className="text-cyan-500">Nikhil Oli</span>
                 <br />

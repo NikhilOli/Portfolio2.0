@@ -13,7 +13,7 @@ export const projects = [
     description: "Image Snap is a web application for image manipulation and sharing.",
     image: imageSnap,
     tags: ['React', 'Tailwind', 'API Integration', 'Axios'],
-    source: 'https://github.com/yourusername/image-snap',
+    source: 'https://github.com/NikhilOli/image-snap',
     visit: "https://image-snap.vercel.app/",
   },
   {
@@ -22,8 +22,17 @@ export const projects = [
     description: "Blog Weave is a platform for creating and sharing blog posts.",
     image: blogweave,
     tags: ['React', 'Node.js', 'MongoDB', 'JWT Auth'],
-    source: 'https://github.com/yourusername/blog-weave',
+    source: 'https://github.com/NikhilOli/blog-weave',
     visit: "https://blogweave.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "CineVerse",
+    description: "CineVerse is a modern, responsive movie browsing application built with React. It offers users a sleek interface to explore popular, top-rated, and upcoming movies, providing detailed information about each film.",
+    image: movieApp,
+    tags: ['React', 'Tailwind CSS', 'Framer Motion', 'API Integration', 'Responsive Design'],
+    source: 'https://github.com/NikhilOli/cineVerse',
+    visit: "https://cineVerse.vercel.app/",
   },
   {
     id: 3,
@@ -31,7 +40,7 @@ export const projects = [
     description: "A system for efficiently managing and organizing contacts.",
     image: contactms,
     tags: ['React', 'Node.js', 'MongoDB', 'JWT Auth'],
-    source: 'https://github.com/yourusername/contact-management-system',
+    source: 'https://github.com/NikhilOli/contact-management-system',
     visit: "https://contactms.vercel.app/",
   },
   {
@@ -40,7 +49,7 @@ export const projects = [
     description: "An e-commerce platform built with Redux for state management.",
     image: reduxEcommerce,
     tags: ['React', 'Redux', 'Tailwind', 'API Integration'],
-    source: 'https://github.com/yourusername/redux-ecommerce',
+    source: 'https://github.com/NikhilOli/redux-ecommerce',
     visit: "https://redux-ecommerce-ten.vercel.app/",
   },
   {
@@ -49,7 +58,7 @@ export const projects = [
     description: "A weather application providing real-time weather information.",
     image: weatherApp,
     tags: ['React', 'API Integration', 'Tailwind'],
-    source: 'https://github.com/yourusername/weather-app',
+    source: 'https://github.com/NikhilOli/weather-app',
     visit: "https://weatheringai.netlify.app/",
   },
   {
@@ -58,7 +67,7 @@ export const projects = [
     description: "Project ONN is a web application for showcasing provided services.",
     image: onn,
     tags: ['React', 'Tailwind'],
-    source: 'https://github.com/yourusername/project-onn',
+    source: 'https://github.com/NikhilOli/project-onn',
     visit: "https://react-projects-coral.vercel.app/",
   },
   {
@@ -67,7 +76,7 @@ export const projects = [
     description: "A full-featured e-commerce platform for online shopping.",
     image: eCommerce,
     tags: ['React', 'API Integration', 'Tailwind'],
-    source: 'https://github.com/yourusername/e-commerce',
+    source: 'https://github.com/NikhilOli/e-commerce',
     visit: "https://e-commerce-five-plum.vercel.app/",
   },
 ];
@@ -84,6 +93,6 @@ export const TimeLineData = [
 export const data = [
   { number: 7, text: 'Web Projects Completed' },
   { number: 9, text: 'Technologies Learned' },
-  { number: 300, text: 'Hours of Coding' },
+  { number: 350, text: 'Hours of Coding' },
   { number: 15, text: 'GitHub Repositories' }
 ];
