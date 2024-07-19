@@ -5,6 +5,7 @@ import reduxEcommerce from "../assets/portfolio/reduxEcommerce.png";
 import weatherApp from "../assets/portfolio/weatherApp.png";
 import onn from "../assets/portfolio/onn.png";
 import eCommerce from "../assets/portfolio/eCommerce.png";
+import movieVerse from "../assets/portfolio/movieVerse.png";
 
 export const projects = [
   {
@@ -27,9 +28,9 @@ export const projects = [
   },
   {
     id: 8,
-    title: "CineVerse",
-    description: "CineVerse is a modern, responsive movie browsing application built with React. It offers users a sleek interface to explore popular, top-rated, and upcoming movies, providing detailed information about each film.",
-    image: movieApp,
+    title: "Movie Verse",
+    description: "Movie Verse is a modern, responsive movie browsing application built with React. It offers users a sleek interface to explore popular, top-rated, and upcoming movies, providing detailed information about each film.",
+    image: movieVerse,
     tags: ['React', 'Tailwind CSS', 'Framer Motion', 'API Integration', 'Responsive Design'],
     source: 'https://github.com/NikhilOli/cineVerse',
     visit: "https://cineVerse.vercel.app/",
