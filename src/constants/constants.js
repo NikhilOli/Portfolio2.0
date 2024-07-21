@@ -5,7 +5,7 @@ import reduxEcommerce from "../assets/portfolio/reduxEcommerce.png";
 import weatherApp from "../assets/portfolio/weatherApp.png";
 import onn from "../assets/portfolio/onn.png";
 import eCommerce from "../assets/portfolio/eCommerce.png";
-import movieVerse from "../assets/portfolio/movieVerse.png";
+import movieHaven from "../assets/portfolio/movieHaven.png";
 
 export const projects = [
   {
@@ -30,20 +30,20 @@ export const projects = [
     id: 8,
     title: "Movie Haven",
     description: "Movie Haven is a modern, responsive movie browsing application built with React. It offers users a sleek interface to explore popular, top-rated, and upcoming movies, providing detailed information about each film.",
-    image: movieVerse,
+    image: movieHaven,
     tags: ['React', 'Typescript', 'Tailwind CSS', 'Framer Motion', 'API Integration', 'Responsive Design'],
     source: 'https://github.com/NikhilOli/Typescript-Projects/tree/main/movieApp',
     visit: "https://movie-haven.vercel.app/",
   },
-  {
-    id: 9,
-    title: "Task Planner",
-    description: "Task Planner is a sophisticated todo application with drag-and-drop functionality, built using the MERN stack. It offers a seamless user experience for managing tasks across different status columns.",
-    image: todoApp,
-    tags: ['React', 'Typescript', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS', 'Drag and Drop'],
-    source: 'https://github.com/NikhilOli/Typescript-Projects/tree/main/todo-app',
-    visit: "https://task-planner.vercel.app/",
-  },
+  // {
+  //   id: 9,
+  //   title: "Task Planner",
+  //   description: "Task Planner is a sophisticated todo application with drag-and-drop functionality, built using the MERN stack. It offers a seamless user experience for managing tasks across different status columns.",
+  //   image: todoApp,
+  //   tags: ['React', 'Typescript', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS', 'Drag and Drop'],
+  //   source: 'https://github.com/NikhilOli/Typescript-Projects/tree/main/todo-app',
+  //   visit: "https://task-planner.vercel.app/",
+  // },
   {
     id: 3,
     title: "Contact Management System",
