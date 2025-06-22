@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-scroll';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 import { HiMenu, HiX } from 'react-icons/hi';
+import { RiTwitterXLine } from "react-icons/ri";
+
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +15,7 @@ const Header = () => {
                 <div className="flex items-center">
                     <Link to="hero" smooth duration={500} className="flex items-center text-white cursor-pointer">
                         <DiCssdeck size="26px" />
-                        <span className="ml-2 text-base md:text-lg">Portfolio</span>
+                        <span className="ml-2 text-base md:text-lg">Nikhil.Dev</span>
                     </Link>
                 </div>
                 <div className="hidden md:flex space-x-4">
@@ -34,9 +36,10 @@ const Header = () => {
                     <SocialLink href="https://linkedin.com/in/nikhil-oli">
                         <AiFillLinkedin size="26px" />
                     </SocialLink>
-                    <SocialLink href="https://instagram.com/ankeet_oli">
-                        <AiFillInstagram size="26px" />
+                    <SocialLink href="https://twitter.com/your_handle">
+                        <RiTwitterXLine size="26px" />
                     </SocialLink>
+
                 </div>
                 <button 
                     className="md:hidden text-white"
@@ -66,7 +69,7 @@ const Header = () => {
                             <AiFillLinkedin size="26px" />
                         </SocialLink>
                         <SocialLink href="https://instagram.com/ankeet_oli">
-                            <AiFillInstagram size="26px" />
+                            <RiTwitterXLine size="26px" />
                         </SocialLink>
                     </div>
                 </div>
@@ -76,7 +79,7 @@ const Header = () => {
 };
 
 const SocialLink = ({ href, children }) => (
-    <a href={href} className="text-white transition duration-300 p-2 rounded-full hover:bg-gray-800 hover:scale-110 cursor-pointer" target="_blank" rel="noopener noreferrer">
+    <a href={href} target="_blank" className="text-white transition duration-300 p-2 rounded-full hover:bg-gray-800 hover:scale-110 cursor-pointer"  rel="noopener noreferrer">
         {children}
     </a>
 );

@@ -15,24 +15,21 @@ const Technologies = () => (
                     <DiReact size="2rem" className="text-gray-100 mb-2" />
                     <h4 className="text-lg md:text-xl font-semibold text-white mb-2">Front-End</h4>
                     <p className="text-[#ffffff80] text-center md:text-left">
-                        Experience with <br />
-                        HTML, CSS, JavaScript, React, Tailwind CSS, Framer-Motion
+                    React, TypeScript, Tailwind CSS, Shadcn UI, Framer Motion, Next.js
                     </p>
                 </li>
                 <li className="flex flex-col items-center md:items-start">
                     <DiFirebase size="2rem" className="text-gray-100 mb-2" />
                     <h4 className="text-lg md:text-xl font-semibold text-white mb-2">Back-End</h4>
                     <p className="text-[#ffffff80] text-center md:text-left">
-                        Experience with <br />
-                        Node.js, Express.js, MongoDB and MySQL
+                    Node.js, Express, PostgreSQL, Prisma ORM, JWT Auth
                     </p>
                 </li>
                 <li className="flex flex-col items-center md:items-start">
                     <DiZend size="2rem" className="text-gray-100 mb-2" />
-                    <h4 className="text-lg md:text-xl font-semibold text-white mb-2">UI/UX</h4>
+                    <h4 className="text-lg md:text-xl font-semibold text-white mb-2">Tools & Auth</h4>
                     <p className="text-[#ffffff80] text-center md:text-left">
-                        Experience with <br />
-                        Tailwind CSS, Framer-Motion
+                    Clerk Auth, Git/Hub, Vercel, REST APIs
                     </p>
                 </li>
             </ul>

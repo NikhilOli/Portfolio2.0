@@ -11,7 +11,7 @@ const Hero = () => (
                 <span className="text-gray-300 text-xl md:text-2xl">Web Developer</span>
             </h1>
             <p className="text-sm sm:text-base md:text-lg mb-6 md:mb-8 text-[#ffffff80] my-1 w-full md:w-3/4 lg:w-2/3 mx-auto md:mx-0 leading-relaxed">
-                Greetings! I'm a seasoned Web Developer with expertise spanning frontend technologies including HTML, CSS, JavaScript, and ReactJS, alongside backend proficiency in Node.js and Express.js. Transforming concepts into elegant and responsive web applications. Let's collaborate to elevate your digital presence!
+            Full-Stack Web Developer specializing in building high-performance web applications using modern technologies like TypeScript, Next.js, Prisma, PostgreSQL, React, and Tailwind CSS. Passionate about clean code, smooth UI/UX, and scalable backend architecture.
             </p>
             <div className="flex justify-center md:justify-start">
                 <Link to="projects" smooth duration={500}>

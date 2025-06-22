@@ -92,17 +92,37 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2022, text: 'Started learning Web Development' },
-  { year: 2023, text: 'Dived into Software Development and started building foundational skills' },
-  { year: 2023, text: 'Mastered Frontend development with React and other modern technologies' },
-  { year: 2023, text: 'Built and deployed multiple frontend projects, showcasing my skills' },
-  { year: 2024, text: 'Expanded my knowledge to Backend development, completing several full-stack projects' },
+  {
+    year: "2022",
+    text: "Began my journey into web development with HTML, CSS, and JavaScript.",
+  },
+  {
+    year: "2023",
+    text: "Built responsive web interfaces using React, Tailwind CSS, and Framer Motion.",
+  },
+  {
+    year: "2023",
+    text: "Expanded into backend development with Node.js, Express.js, and MongoDB.",
+  },
+  {
+    year: "2024",
+    text: "Mastered modern full-stack development with Next.js, TypeScript, PostgreSQL, and Prisma ORM.",
+  },
+  {
+    year: "2024",
+    text: "Integrated secure authentication systems using Clerk and JWT.",
+  },
+  {
+    year: "2025",
+    text: "Focused on building scalable, production-ready web applications and deploying via Vercel.",
+  },
 ];
 
 
+
 export const data = [
-  { number: 7, text: 'Web Projects Completed' },
-  { number: 9, text: 'Technologies Learned' },
-  { number: 350, text: 'Hours of Coding' },
-  { number: 15, text: 'GitHub Repositories' }
+  { number: 10, text: 'Full-Stack Projects Built' },
+  { number: 12, text: 'Frameworks & Tools Mastered' },
+  { number: 7, text: 'Projects Deployed' },
+  { number: 25, text: 'GitHub Repositories' }
 ];

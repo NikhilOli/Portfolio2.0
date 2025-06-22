@@ -1,4 +1,3 @@
-import React from 'react';
 import GradientLine from './GradientLine';
 import { data } from '../constants/constants';
 

@@ -1,5 +1,6 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { RiTwitterXLine } from "react-icons/ri";
 
 const Footer = () => {
     return (
@@ -8,7 +9,7 @@ const Footer = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-8 w-full">
                 <div className="flex flex-col items-center sm:items-start">
                     <h4 className="text-gray-500 text-sm font-semibold uppercase mb-4">Blog</h4>
-                    <a href="https://blogweave.vercel.app/" className="text-white/75 hover:text-white hover:underline transition-all hover:translate-x-1">Read our latest articles and insights</a>
+                    <a href="https://blogweave.vercel.app/" target='_blank' className="text-white/75 hover:text-white hover:underline transition-all hover:translate-x-1">Read our latest articles and insights</a>
                 </div>
 
                 <div className="flex flex-col items-center sm:items-start">
@@ -21,14 +22,14 @@ const Footer = () => {
                     <p className="text-gray-500 text-center md:text-left">Innovating the future through technology, one line of code at a time</p>
                 </div>
                 <div className="flex space-x-4">
-                    <a href="https://github.com/NikhilOli" className="text-white transition duration-300 p-2 rounded-full hover:bg-gray-800 hover:scale-110 cursor-pointer">
+                    <a href="https://github.com/NikhilOli" target='_blank' className="text-white transition duration-300 p-2 rounded-full hover:bg-gray-800 hover:scale-110 cursor-pointer">
                         <AiFillGithub size="1.5rem" className="sm:w-8 sm:h-8" />
                     </a>
-                    <a href="https://linkedin.com/in/nikhil-oli" className="text-white transition duration-300 p-2 rounded-full hover:bg-gray-800 hover:scale-110 cursor-pointer">
+                    <a href="https://linkedin.com/in/nikhil-oli" target='_blank' className="text-white transition duration-300 p-2 rounded-full hover:bg-gray-800 hover:scale-110 cursor-pointer">
                         <AiFillLinkedin size="1.5rem" className="sm:w-8 sm:h-8" />
                     </a>
-                    <a href="https://instagram.com/ankeet_oli" className="text-white transition duration-300 p-2 rounded-full hover:bg-gray-800 hover:scale-110 cursor-pointer">
-                        <AiFillInstagram size="1.5rem" className="sm:w-8 sm:h-8" />
+                    <a href="https://x.com/NikhilOli107" target='_blank' className="text-white transition duration-300 p-2 rounded-full hover:bg-gray-800 hover:scale-110 cursor-pointer">
+                        <RiTwitterXLine size="1.5rem" className="sm:w-8 sm:h-8" />
                     </a>
                 </div>
             </div>
