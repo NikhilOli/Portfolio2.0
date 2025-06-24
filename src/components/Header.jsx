@@ -36,7 +36,7 @@ const Header = () => {
                     <SocialLink href="https://linkedin.com/in/nikhil-oli">
                         <AiFillLinkedin size="26px" />
                     </SocialLink>
-                    <SocialLink href="https://twitter.com/your_handle">
+                    <SocialLink href="https://x.com/NikhilOli107">
                         <RiTwitterXLine size="26px" />
                     </SocialLink>
 
@@ -68,7 +68,7 @@ const Header = () => {
                         <SocialLink href="https://linkedin.com">
                             <AiFillLinkedin size="26px" />
                         </SocialLink>
-                        <SocialLink href="https://instagram.com/ankeet_oli">
+                        <SocialLink href="https://x.com/NikhilOli107">
                             <RiTwitterXLine size="26px" />
                         </SocialLink>
                     </div>
