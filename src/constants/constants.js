@@ -1,24 +1,15 @@
 import imageSnap from "../assets/portfolio/imageSnap.png";
 import blogweave from "../assets/portfolio/blogWeave.png";
+import hospitalms from "../assets/portfolio/hospitalms.png";
 import contactms from "../assets/portfolio/contactms.png";
 import reduxEcommerce from "../assets/portfolio/reduxEcommerce.png";
 import weatherApp from "../assets/portfolio/weatherApp.png";
-import onn from "../assets/portfolio/onn.png";
 import eCommerce from "../assets/portfolio/eCommerce.png";
 import movieHaven from "../assets/portfolio/movieHaven.png";
 
 export const projects = [
   {
     id: 1,
-    title: "Image Snap",
-    description: "Image Snap is a web application for image manipulation and sharing.",
-    image: imageSnap,
-    tags: ['React', 'Tailwind', 'API Integration', 'Axios'],
-    source: 'https://github.com/NikhilOli/React-Projects/tree/main/pexelsAPI',
-    visit: "https://image-snap.vercel.app/",
-  },
-  {
-    id: 2,
     title: "Blog Weave",
     description: "Blog Weave is a platform for creating and sharing blog posts.",
     image: blogweave,
@@ -27,7 +18,25 @@ export const projects = [
     visit: "https://blogweave.vercel.app/",
   },
   {
-    id: 8,
+    id: 2,
+    title: "HospitalMS",
+    description: "A full-stack hospital management system with role-based login for Admins, Doctors, and Users. Admins can assign doctors to users, manage records, and perform CRUD operations in a clean, responsive UI.",
+    image: hospitalms,
+    tags: ['Next.js', 'Tailwind CSS', 'Prisma', 'PostgreSQL', 'Shadcn UI', 'Role-based Auth'],
+    source: 'https://github.com/NikhilOli/hospital-ms',
+    visit: "https://hospital-ms-blue.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Image Snap",
+    description: "Image Snap is a web application for image manipulation and sharing.",
+    image: imageSnap,
+    tags: ['React', 'Tailwind', 'API Integration', 'Axios'],
+    source: 'https://github.com/NikhilOli/React-Projects/tree/main/pexelsAPI',
+    visit: "https://image-snap.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Movie Haven",
     description: "Movie Haven is a modern, responsive movie browsing application built with React. It offers users a sleek interface to explore popular, top-rated, and upcoming movies, providing detailed information about each film.",
     image: movieHaven,
@@ -35,17 +44,8 @@ export const projects = [
     source: 'https://github.com/NikhilOli/Typescript-Projects/tree/main/movieApp',
     visit: "https://movie-haven.vercel.app/",
   },
-  // {
-  //   id: 9,
-  //   title: "Task Planner",
-  //   description: "Task Planner is a sophisticated todo application with drag-and-drop functionality, built using the MERN stack. It offers a seamless user experience for managing tasks across different status columns.",
-  //   image: todoApp,
-  //   tags: ['React', 'Typescript', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS', 'Drag and Drop'],
-  //   source: 'https://github.com/NikhilOli/Typescript-Projects/tree/main/todo-app',
-  //   visit: "https://task-planner.vercel.app/",
-  // },
   {
-    id: 3,
+    id: 5,
     title: "Contact Management System",
     description: "A system for efficiently managing and organizing contacts.",
     image: contactms,
@@ -54,7 +54,7 @@ export const projects = [
     visit: "https://contactms.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Redux E-commerce",
     description: "An e-commerce platform built with Redux for state management.",
     image: reduxEcommerce,
@@ -63,7 +63,7 @@ export const projects = [
     visit: "https://redux-ecommerce-ten.vercel.app/",
   },
   {
-    id: 5,
+    id: 7,
     title: "Weather App",
     description: "A weather application providing real-time weather information.",
     image: weatherApp,
@@ -72,16 +72,7 @@ export const projects = [
     visit: "https://weatheringai.netlify.app/",
   },
   {
-    id: 6,
-    title: "Project ONN",
-    description: "Project ONN is a web application for showcasing provided services.",
-    image: onn,
-    tags: ['React', 'Tailwind'],
-    source: 'https://github.com/NikhilOli/React-Projects/tree/main/onn-website',
-    visit: "https://react-projects-coral.vercel.app/",
-  },
-  {
-    id: 7,
+    id: 8,
     title: "E-commerce",
     description: "A full-featured e-commerce platform for online shopping.",
     image: eCommerce,
